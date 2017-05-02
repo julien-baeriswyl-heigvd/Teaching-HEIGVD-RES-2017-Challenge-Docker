@@ -1,6 +1,17 @@
 FROM java:8-jdk-alpine
 
-ENV email quentin.zeller@heig-vd.ch
+#
+# =========================================================================================================
+# REMPLACEZ olivier.liechti@heig-vd.ch par votre adresse mail. Attention à ne pas faire de faute de frappe.
+# =========================================================================================================
+#
+
+ENV email olivier.liechti@heig-vd.ch
+
+#
+# =========================================================================================================
+
+
 
 RUN apk update && \
 	apk add bash && \
